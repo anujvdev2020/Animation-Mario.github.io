@@ -33,6 +33,8 @@ body{
 
 		animation-name: drive;
 		animation-duration: 5s;
+		animation-delay:2s;
+		animation-fill-mode:backwards;
 
 	}
 	@keyframes drive{

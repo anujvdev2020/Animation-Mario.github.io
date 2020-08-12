@@ -1,0 +1,46 @@
+body{
+		margin: 0px;
+	}
+	.sky{
+		height: 200px;
+		width: auto;
+		background-color: lightblue;
+	}
+	.grass{
+		position: relative;
+		height: 120px;
+		width: auto;
+		background-color: green;
+	}
+	.road{
+		height:  200px;
+		width: auto;
+		background-color: grey;
+	}
+	.lines{
+		
+		height: 10px;
+		position: relative;
+		    padding-top: 86px;
+		border-bottom:10px dashed white;
+	}
+	img{
+		width: 100px;
+		height: 50px;
+		position: absolute;
+	}
+	.mario{
+
+		animation-name: drive;
+		animation-duration: 5s;
+
+	}
+	@keyframes drive{
+		from{ 
+			transform: translateX(0);
+
+		 }
+		to{
+			transform: translateX(1400px);
+		}
+	}
